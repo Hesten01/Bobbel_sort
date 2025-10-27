@@ -1,9 +1,79 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="Page-1" id="zcB1-LKTeKiKQ55Jm24D">
-    <mxGraphModel>
+    <mxGraphModel dx="976" dy="667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EvofXIfxwn4W3poBj2-q-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvofXIfxwn4W3poBj2-q-3" target="EvofXIfxwn4W3poBj2-q-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-3" value="bobbel sort - swapping a higher value and a lower value" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvofXIfxwn4W3poBj2-q-4" target="EvofXIfxwn4W3poBj2-q-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-4" value="define an array of numbers and letters" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvofXIfxwn4W3poBj2-q-6" target="EvofXIfxwn4W3poBj2-q-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EvofXIfxwn4W3poBj2-q-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-6" value="are the number/letters out of order?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-10" value="if not dont do any swaps and print out the array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvofXIfxwn4W3poBj2-q-12" target="EvofXIfxwn4W3poBj2-q-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-12" value="if they are run function to swap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvofXIfxwn4W3poBj2-q-14" target="EvofXIfxwn4W3poBj2-q-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-14" value="create a loop that passes though the array checking if two numbers/letters are out of order&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvofXIfxwn4W3poBj2-q-16" target="EvofXIfxwn4W3poBj2-q-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-16" value="When it finds numbers/letters out of order create a temporairly int to hold the larger number" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvofXIfxwn4W3poBj2-q-18" target="EvofXIfxwn4W3poBj2-q-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-18" value="move the smaller number into the position where the larger number was" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EvofXIfxwn4W3poBj2-q-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-20" value="move the int temp into the place the smaller number was before" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvofXIfxwn4W3poBj2-q-25" target="EvofXIfxwn4W3poBj2-q-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-25" value="repeat through the array" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="EvofXIfxwn4W3poBj2-q-29" target="EvofXIfxwn4W3poBj2-q-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EvofXIfxwn4W3poBj2-q-29" value="when finished return" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
