@@ -79,7 +79,7 @@ void bubbel_sort_letters(char b[], int length_letters)
 }
 
 int main(void) {
-    int a[] = {8,6,4,3,2,5,3,7,9,1,10}; // the array of numbers
+    int a[] = {8,6,4,-1,2,5,3,7,9,1,10}; // the array of numbers
     char b[] = {'z','s','S','a','A'}; // the array of letters
     
     int length = 11;
