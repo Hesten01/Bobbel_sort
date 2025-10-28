@@ -33,12 +33,6 @@ bool pair_is_in_order_chars(char b[], int length_letters)
     }
     return true;
 }
-
-// int temp = a[1];
-// a[1] = a[1 + 1];
-// a[1 + 1] = temp;
-
-
 // this function takes a int array and the lenght of that array and is then abel to sort the numbers in the array though bubbel sort
 // it works by having two loops
 // the inner loop makes the swaps one number at a time, as the first loop goes though the array. it skips the last number because there is no number to compare the last number too.
@@ -51,7 +45,7 @@ void bubble_sort_numbers(int a[], int length)
         {
 // this is the function that makes the swap, it works by checking if a[j] is larger than a[j+1] and if it is it swaps them.
 // visualised : with array a[5,2] : a[j] > a[j +1] = a[5] > a[2]
-// then int temp = a[5] and a[j] = a[2] : then a[2] = temp : the array would then be a[2,5] : the outer for loop makes sure that it does this for every number in the array
+// then int temp = a[5] and a[j] = a[j + 1] = a[5] = a[2] : then a[j +1] =  int temp: whitch is a[2] = a[5].  the array would then be a[2,5] : the outer for loop makes sure that it does this for every number in the array
             if (a[j] > a[j + 1])
             {
                 int temp = a[j];
